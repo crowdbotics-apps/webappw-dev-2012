@@ -10,6 +10,7 @@ class CustomText(models.Model):
     title = models.CharField(max_length=150,)
     temp = models.BigIntegerField(null=True, blank=True,)
     temp2 = models.BigIntegerField(null=True, blank=True,)
+    temp3 = models.BigIntegerField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
