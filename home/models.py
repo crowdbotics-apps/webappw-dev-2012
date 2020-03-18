@@ -11,6 +11,7 @@ class CustomText(models.Model):
     temp = models.BigIntegerField(null=True, blank=True,)
     temp2 = models.BigIntegerField(null=True, blank=True,)
     temp3 = models.BigIntegerField(null=True, blank=True,)
+    csc = models.BigIntegerField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
